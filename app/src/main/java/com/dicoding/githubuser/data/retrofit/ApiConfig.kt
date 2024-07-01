@@ -10,8 +10,9 @@ object ApiConfig {
     fun getApiConfig(): ApiService {
         val authInterceptor = Interceptor { chain ->
             val req = chain.request()
+            val token = System.getenv("GITHUB_API_TOKEN")
             val requestHeaders = req.newBuilder()
-                .addHeader("Authorization", "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")
+                .addHeader("Authorization", "Bearer $token")
                 .build()
             chain.proceed(requestHeaders)
         }

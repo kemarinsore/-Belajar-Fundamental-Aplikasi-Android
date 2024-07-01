@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GitHub User</string>
+    <string name="title">Judul</string>
+    <string name="description">Description</string>
+    <string name="review">Review</string>
+    <string name="write_your_review_here">Write your review here..</string>
+    <string name="send">Kirim</string>
+    <string name="nama_user">Nama</string>
+    <string name="searchbar_hint">Masukkan kata</string>
+    <string name="this_activity">ini menu activity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_tab_home">ini hom</string>
+    <string name="dark_mode">Mode</string>
+    <string name="favorite">Favorite</string>
+    <string name="mode">Settings</string>
+</resources>
